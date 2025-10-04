@@ -27,3 +27,70 @@ align-items: center;
 .title1{
     text-align: center;
 }
+
+div{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.rel{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+
+    position: relative;
+    /* top: 200px;
+    left: 150px; */
+}
+
+.absolute{
+    background-color: rgb(196, 230, 8);
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+    bottom: 150px;
+    right: 250px
+}
+
+.per{
+    height: 250px;
+    border: 4px solid red;
+    position: relative;
+}
+
+.fix{
+    background-color: rgb(8, 49, 230);
+    width: 150px;
+    height: 150px;
+
+    position: fixed;
+    /* bottom: 0;
+    right: 0; */
+    /* top:-60px;
+    right: 150px; */
+}
+
+p{
+    font-size: 56px;
+}
+
+.stiky{
+    background-color: rgb(19, 248, 7);
+    /* width: 150px; */
+    height: 100px;
+
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.st{
+    background-color: rgb(200, 7, 248);
+    /* width: 150px; */
+    height: 100px;
+
+    position: sticky;
+    /* top: 100px; */
+    
+}
