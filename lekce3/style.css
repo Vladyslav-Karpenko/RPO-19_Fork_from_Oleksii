@@ -1,0 +1,53 @@
+.btn{
+border-radius: 10px;
+border: 3px dotted rgb(87, 87, 237);
+color: rgb(87, 87, 237);
+font-size: 36px;
+background-color: lightblue;
+cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+    border: 3px solid rgb(178, 4, 241);
+    background-color: rgb(178, 4, 241);
+    font-size: 56px;
+    color: white;
+}
+
+.btn2:hover {
+    border: 3px solid rgb(111, 253, 2);
+    background-color: rgb(111, 253, 2);
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+
+#par25{
+    border: 1px solid red;
+}
+/* Существуют разные типы курсоров, например:
+pointer — рука (обычно для кнопок и ссылок)
+default — стандартный курсор стрелка
+text — курсор ввода текста
+wait — ожидание
+crosshair — перекрестие
+move — для перемещения */
+
+.btn-box{
+    border: 1px solid red;
+    width: 150px;
+    height: 50px;
+
+    padding: 20px;
+
+    margin: 50px
+    
+}
+
+.parent {
+    width: 200px;
+    border-right: 2px solid red;
+    border-left: 2px dotted green;
+}
