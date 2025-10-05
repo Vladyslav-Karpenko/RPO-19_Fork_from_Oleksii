@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <form>
+        <h2>Образец формы</h2>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Введите своё имя">
+
+        <label for="name">Email
+        <input type="email" name="email" id="email" placeholder="exapmple@gmail.com"> required
+        </label>
+
+        <input type="password" placeholder="password">
+        <input type="number" placeholder="number" min="0" max="100000000000">
+        <input type="date" placeholder="date">
+        <input type="checkbox" >I agree <br>
+        <input type="radio" name="gender" value="male"> Мужчина
+        <input type="radio" name="gender" value="female"> Женщина<br>
+        <input type="range"> <br>
+        <input type="color"> <br>
+        <input type="file" > <br>
+
+        <label for="city">Выберите город:</label>
+        <select id="city" name="city" multiple size="3">
+            <option value="prague">Прага</option>
+            <option value="brno">Брно</option>
+            <option value="ostrava">Острава</option>
+        </select>
+
+        <input list="cities" id="city" name="city">
+        <datalist id="cities">
+            <option value="Прага">
+            <option value="Брно">
+            <option value="Острава">
+        </datalist>
+
+
+
+        <button>Sumbit</button>
+    </form> -->
+
+
+    <form>
+        <fieldset>
+        <legend>Данные пользователя</legend>
+        <label for="name">Name</label>
+        <input class="nameInp" type="text" name="name" id="name" placeholder="Введите своё имя" >
+
+        <label for="name">Email
+        <input class="inputEmail" type="email" name="email" id="email" placeholder="exapmple@gmail.com"> <!--required-->
+        </label>
+        <label>Password</label>
+        <input type="password" placeholder="password">
+        </fieldset>
+        <fieldset>
+            <!-- <legend>Мой родной город</legend> -->
+            <label for="city">Выберите город:</label>
+        <select id="city" name="city" multiple size="3">
+            <option value="prague">Прага</option>
+            <option value="brno">Брно</option>
+            <option value="ostrava">Острава</option>
+        </select>
+        </fieldset>
+    </form>
+</body>
+</html>

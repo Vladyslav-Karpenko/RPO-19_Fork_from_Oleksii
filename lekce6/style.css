@@ -1,0 +1,27 @@
+.nameInp{
+    border: 4px double violet;
+    color: red;
+    font-size: 36px;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.nameInp:enabled {
+    border: 4px dotted rgb(87, 255, 4);
+}
+.nameInp:disabled {
+    border: 4px dotted rgb(255, 4, 4);
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputEmail:valid{
+    border: 4px dotted rgb(87, 255, 4);
+}
+
+.inputEmail:invalid{
+    border: 4px double rgb(255, 4, 4);
+}
