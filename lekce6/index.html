@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- <form>
         <h2>Образец формы</h2>
         <label for="name">Name</label>
@@ -45,21 +51,20 @@
         <button>Sumbit</button>
     </form> -->
 
-
-    <form>
+    <!-- <form>
         <fieldset>
         <legend>Данные пользователя</legend>
         <label for="name">Name</label>
         <input class="nameInp" type="text" name="name" id="name" placeholder="Введите своё имя" >
 
         <label for="name">Email
-        <input class="inputEmail" type="email" name="email" id="email" placeholder="exapmple@gmail.com"> <!--required-->
+        <input class="inputEmail" type="email" name="email" id="email" placeholder="exapmple@gmail.com"> required
         </label>
         <label>Password</label>
         <input type="password" placeholder="password">
         </fieldset>
         <fieldset>
-            <!-- <legend>Мой родной город</legend> -->
+            <legend>Мой родной город</legend>
             <label for="city">Выберите город:</label>
         <select id="city" name="city" multiple size="3">
             <option value="prague">Прага</option>
@@ -67,6 +72,41 @@
             <option value="ostrava">Острава</option>
         </select>
         </fieldset>
-    </form>
-</body>
+    </form> -->
+
+    <header class="header">
+      <a class="logo" href="">LOGO</a>
+      <nav>
+        <ul class="navList">
+          <li class="navItem"><a href="">About</a></li>
+          <li class="navItem"><a href="">Our team</a></li>
+          <li class="navItem"><a href="">Product</a></li>
+          <li class="navItem"><a href="">Contact</a></li>
+        </ul>
+        <div class="ham" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <button class="openModal" id="openModal">Apply</button>
+    </main>
+
+    <!-- modal -->
+    <div class="modal" id="modal">
+     <div class="modal-content">
+        <span class="close" id="closeModal">&#9746;</span>
+        <form class="form">
+            <h2>Оставь своё пожелание</h2>
+            <label for="email">Имя</label>
+                <input type="email" name="email"> 
+            <textarea  rows="8" placeholder="напишите своё сообщение"></textarea>
+            <button class="btn">Отправить</button>
+        </form>
+     </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
